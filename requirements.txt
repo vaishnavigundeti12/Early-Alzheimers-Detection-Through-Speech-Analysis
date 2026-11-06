@@ -1,0 +1,16 @@
+streamlit
+numpy
+pandas
+scikit-learn
+xgboost
+lightgbm
+joblib
+nltk
+matplotlib
+seaborn
+plotly
+librosa
+soundfile
+openai-whisper
+imageio-ffmpeg
+audio-recorder-streamlit

@@ -1,0 +1,29 @@
+# Exclude the FFmpeg binary folder (it's large and downloaded dynamically)
+ffmpeg_bin/
+
+# Exclude the trained Machine Learning models (they can be regenerated)
+models/
+
+# Exclude the generated safe image
+safe_cookie.png
+
+# Exclude Windows Batch files
+run_app.bat
+setup.bat
+
+# ─── Standard Python Ignores (Highly Recommended) ───
+# Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit secrets (in case you add any later)
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
